@@ -5,13 +5,13 @@ entrypoint = "lib.typ"
 authors = ["Zixiao Huang <huangzixiaopaz@nudt.edu.cn>"]
 license = "MIT"
 description = "Touying Slide Theme for DIDS Lab"
-homepage = "https://github.com/Coekjan/touying-buaa"
-repository = "https://github.com/Coekjan/touying-buaa"
-keywords = ["touying", "slide", "theme", "buaa", "beihang"]
+homepage = "https://github.com/RaVincentHuang/touying-dids"
+repository = "https://github.com/RaVincentHuang/touying-dids"
+keywords = ["touying", "slide", "theme", "nudt", "dids"]
 categories = ["presentation"]
 exclude = [".github/", "examples/"]
 
 [template]
 path = "template"
 entrypoint = "main.typ"
-thumbnail = "thumbnail.webp"
+thumbnail = "thumbnail.png"

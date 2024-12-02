@@ -1,7 +1,7 @@
 #import "@preview/cetz:0.3.1"
 #import "@preview/fletcher:0.5.2" as fletcher: node, edge
 #import "@preview/touying:0.5.3": *
-#import "../lib.typ": * // i.e. "@preview/touying-buaa:<latest>"
+#import "../lib.typ": *
 
 // cetz and fletcher bindings for touying
 #let cetz-canvas = touying-reducer.with(reduce: cetz.canvas, cover: cetz.draw.hide.with(bounds: true))
@@ -239,9 +239,9 @@
 #slide[
   - 您可以使用：
     ```sh
-    typst init @preview/touying-buaa
+    typst init @preview/touying-dids
     ```
     来创建基于本模板的演示文稿项目。
 
-  - 本模板仓库位于 #link("https://github.com/Coekjan/touying-buaa")，欢迎关注与贡献。
+  - 本模板仓库位于 #link("https://github.com/RaVincentHuang/touying-dids")，欢迎关注与贡献。
 ]
